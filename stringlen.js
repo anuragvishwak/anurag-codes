@@ -3,7 +3,7 @@
 // let string = 'anurag vishwakarma'
 // document.getElementById('finding').innerHTML = string.length;
 
-//9th january 2024 (PERFORMING STRING METHODS)
+//9th january 2024 (PERFORMING STRING METHODS, STRING TEMPLATES, )
 //EXTRACTING A CHARACTER FROM A STRING
 // let string = 'anurag vishwakarma'
 // document.getElementById('gettingCharacter').innerHTML = string.charAt(8);
@@ -161,24 +161,4 @@
 //   + "<br>" + (100+23).toString();
 //   //[so using toString() it basically converts the number into string or consider number as a string]
 
-// //ARRAY METHODS 
-// //FINDING THE LENGTH OF THE ARRAY
-// let arr = ['anurag','parth','tanuj','kartik'];
-// document.getElementById('findingLength').innerHTML = arr.length;
 
-// //USING TOSTRING() METHOD
-// let arr = ['anurag','parth','tanuj','kartik'];
-// document.getElementById('returningString').innerHTML = arr.toString(); 
-// //[so basically, this method returns the array elements with sperated comma]
-  
-// //USING AT() METHOD
-// let arr = ['anurag', 'parth', 'tanuj', 'kartik']
-// let elements = arr.at(3);
-// document.getElementById('findingSingleElement').innerHTML = elements;
-// //[finding specfic elements from array]
-
-// //PERFORMING SIMPLE ARRAY JOINTING OPERATIONS 
-// let arr1 = ["Hello", "World"];
-// let arr2 = ["How","Are","You?"]; 
-// let jointing = arr1+arr2;
-// document.getElementById('jointArray').innerHTML=jointing;
