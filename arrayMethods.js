@@ -186,11 +186,46 @@
 // }
 // //[so the difference between the map() and flatMap() is, the flatMap() creates an new array after mapping]
 
-//PERFORMING THE FILTER METHOD
-const numbers = [2, 4, 6, 8, 10, 12,14];
-let over6 = numbers.filter(Filtering);
-document.getElementById('filteringElement').innerHTML = over6;
 
-function Filtering(){
-    
-}
+
+// //11 january 2024
+// //PERFORMING THE FILTER METHOD
+// const numbers = [2, 4, 6, 8, 10, 12,14];
+// let over6 = numbers.filter(Filtering);
+// document.getElementById('filteringElement').innerHTML = over6;
+// function Filtering(value){
+//    return value > 8;
+// }
+
+// //PERFORMING REDUCING FUNCTION and REDUCERIGHT() METHOD
+// const numbers = [2, 4, 6, 8, 10, 12,14];
+// let ReducingFunction = numbers.reduce(Reducing);
+// let ReducingRight = numbers.reduce(Reducing);
+// document.getElementById('reducingArr').innerHTML = ReducingFunction;
+// function Reducing(value,total){
+//     return total+value;
+// }
+// document.getElementById('reducingFromRight').innerHTML = ReducingRight;
+
+// //PERFORMING EVERY() METHOD
+// const numbers = [2, 4, 6, 8, 10, 12,14];
+// let over8 = numbers.every(Everything);
+// document.getElementById('everyElement').innerHTML = over8;
+// function Everything(value){
+//    return value > 8;
+// }
+// //[basically, every() method check for every element in the array and returns true or false(boolean)]
+
+// //PERFORMING SOME() METHOD
+// const numbers = [2, 4, 6, 8, 10, 12,14];
+// let over8 = numbers.some(Something);
+// document.getElementById('someElement').innerHTML = over8;
+// function Something(value){
+//    return value > 8;
+// }
+// //[basically, every() method check for some element in the array and returns true or false(boolean)]
+
+// //PERFORMING FROM() METHOD
+// let arry = Array.from('anurag');
+// document.getElementById('performingFrom').innerHTML = arry;
+
