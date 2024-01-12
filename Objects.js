@@ -67,6 +67,7 @@
 // }
 // document.getElementById('callingFunction').innerHTML = internet();
 
+// //[12th january 2024]
 // //PERFORMING APPLY()
 // let functions = {
 //     name: function(){
@@ -78,4 +79,65 @@
 //     age:10
 // }
 // document.getElementById('callingApply').innerHTML = functions.name.apply(function1);
+//[so basically apply() is used to call a specific element from other object.]
 
+
+// //PERFORMING BIND() METHOD
+// let variable = {
+//   name:'anurag',
+//   enrollment:211260131516,
+//   year: 2024
+// }
+// let anotherVariable = {
+//     name : 'tanuj',
+//     enrollment:211260131505,
+//     year: function(){
+//         return this.enrollment + this.name + this.year;
+//     }
+// }
+// let calling = anotherVariable.year.bind(variable);
+// document.getElementById('callingBind').innerHTML = calling();
+
+// //{CLASSES AND OBJECTS}
+// class RailwayForm {
+//     constructor(itemName, price) {
+//         this.itemName = itemName;
+//         this.price = price;
+//     }
+// }
+
+// let pencil = new RailwayForm('pencil',40)
+
+// const  product1 = class  RailwayForm{
+//     constructor(itemName, price) {
+//         this.itemName = itemName;
+//         this.price = price;
+//     }
+// }
+
+// let chair = new RailwayForm('char',600)
+
+// //PERFORMING PROTOTYPE 
+// const employee = {
+//     calcTax(){
+//         return('you have tou pay TAX');
+//     }
+// };
+// const anurag = {
+//     salary:6000
+// };
+// anurag.__proto__=employee;
+// document.getElementById('callingPrototype').innerHTML = employee;
+
+// //PERFORMING ANOTHER CLASSES AND OBJECT PROGRAM 
+// class Mercedes{
+//     start(){
+//         return('start the car');
+//     }
+
+//     stop(){
+//         return('stoped the car');
+//     }
+// }
+// let myObj = new Mercedes();
+// document.getElementById('callingAutomobiles').innerHTML = myObj.start;

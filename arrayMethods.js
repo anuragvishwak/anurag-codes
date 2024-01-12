@@ -1,17 +1,17 @@
 
-// //ARRAY METHODS 
+// // //ARRAY METHODS 
 // //FINDING THE LENGTH OF THE ARRAY
 // let arr = ['anurag','parth','tanuj','kartik'];
 // document.getElementById('findingLength').innerHTML = arr.length;
 
-// //USING TOSTRING() METHOD
+// // //USING TOSTRING() METHOD
 // let arr = ['anurag','parth','tanuj','kartik'];
 // document.getElementById('returningString').innerHTML = arr.toString(); 
 // //[so basically, this method returns the array elements with sperated comma]
   
-// //USING AT() METHOD
+// // //USING AT() METHOD
 // let arr = ['anurag', 'parth', 'tanuj', 'kartik']
-// let elements = arr.at(3);
+// let elements = arr.at(1);
 // document.getElementById('findingSingleElement').innerHTML = elements;
 // //[finding specfic elements from array]
 
@@ -22,8 +22,8 @@
 // document.getElementById('jointArray').innerHTML=jointing;
 
 
-// 10 january 2024
-// // // //PERFORMING PUSH AND POP OPERATIONS 
+// // 10 january 2024
+////PERFORMING PUSH AND POP OPERATIONS 
 // let country = ['india', 'america', 'australia', 'russia']
 // document.getElementById('arrayPopping').innerHTML = country; 
 // country.pop();
@@ -79,7 +79,7 @@
 // fruits.splice(2,2, 'lemon','kiwi')
 // document.getElementById('deletingElements').innerHTML = fruits;
 
-// //SLICING THE ELEMENTS FROM AN ARRAY 
+// // //SLICING THE ELEMENTS FROM AN ARRAY 
 // let fruits = ["Banana", "Cherry", "Apple", "Mango"]
 // let slicing = fruits.slice(1);
 // document.getElementById('slicing').innerHTML = slicing;
@@ -87,7 +87,7 @@
 // //{ARRAY SEARCH}
 // //USING THE INDEXOF() METHOD 
 // const fruits = ["Coconut", "Cherry", "Apple", "Mango"];
-// let position = fruits.indexOf("Cherry");
+// let position = fruits.indexOf("Coconut");
 // document.getElementById("findingIndex").innerHTML = "Apple is found in position " + position;
 
 // //PERFORMING LASTINDEXOF() METHOD
@@ -119,8 +119,8 @@
 // let findingLastIndex =   temprature.findLastIndex(x =>x > 32);
 // document.getElementById('findLastIndex').innerHTML = findingLastIndex;
 
-//{ARRAY SORT}
-//ARRAY SORT
+// //{ARRAY SORT}
+// //ARRAY SORT
 // let fruits = ["Banana, Coconut", "Apple", "Mango", "Pineapple"];
 // fruits.sort();
 // document.getElementById('sortingArray').innerHTML = fruits;
@@ -131,12 +131,12 @@
 // fruits.reverse();
 // document.getElementById('reverseArray').innerHTML = fruits;
 
-//PERFORMING TOSORT() FUNCTION
+// //PERFORMING TOSORT() FUNCTION
 // let fruits = ["Banana, Coconut", "Apple", "Mango", "Pineapple"];
 // let sorted = fruits.toSorted();
 // document.getElementById('beforeSorted').innerHTML = fruits;
 // document.getElementById('afterSorted').innerHTML = sorted;
-// //[the output of the both sort() and tosort()are but in tosort() it basically returns a new string]
+// //[the output of the both sort() and tosort()are same but in tosort() it basically returns a new string]
 
 // //PERFORMING TOREVERSED() METHOD
 // let fruits = ["Banana, Coconut", "Apple", "Mango", "Pineapple"];
@@ -145,7 +145,7 @@
 // document.getElementById('reverseArray').innerHTML = fruits;
 // //[the output of the both reverse() and toreverse()are but in toreverse() it basically returns a new string]
 
-//PERFORMING SORTED AND UNSORTED ARRAY 
+// //PERFORMING SORTED AND UNSORTED ARRAY 
 // let numeric = [12,32,54,43,21,34];
 // //[here we are creating an function to sort the array]
 // document.getElementById('unsortedArray').innerHTML = numeric;
@@ -153,9 +153,9 @@
 //     let sort  = numeric.sort();
 // document.getElementById('comparingFunction').innerHTML = sort;
 // }
-// function unsortArray(){
-// document.getElementById('UnsortFunction').innerHTML = numeric;
-// }
+// // function unsortArray(){
+// // document.getElementById('UnsortFunction').innerHTML = numeric;
+// // }
 
 // //USING THE FOREACH() METHOD 
 // const numbers = [45, 4, 9, 16, 25];
@@ -213,7 +213,7 @@
 // document.getElementById('everyElement').innerHTML = over8;
 // function Everything(value){
 //    return value > 8;
-// }
+// }    
 // //[basically, every() method check for every element in the array and returns true or false(boolean)]
 
 // //PERFORMING SOME() METHOD
@@ -223,7 +223,7 @@
 // function Something(value){
 //    return value > 8;
 // }
-// //[basically, every() method check for some element in the array and returns true or false(boolean)]
+// //[basically, some() method check for some element in the array and returns true or false(boolean)]
 
 // //PERFORMING FROM() METHOD
 // let arry = Array.from('anurag');

@@ -3,18 +3,18 @@
 // let string = 'anurag vishwakarma'
 // document.getElementById('finding').innerHTML = string.length;
 
-//9th january 2024 (PERFORMING STRING METHODS, STRING TEMPLATES, )
-//EXTRACTING A CHARACTER FROM A STRING
+// //9th january 2024 (PERFORMING STRING METHODS, STRING TEMPLATES, )
+// //EXTRACTING A CHARACTER FROM A STRING
 // let string = 'anurag vishwakarma'
 // document.getElementById('gettingCharacter').innerHTML = string.charAt(8);
-//[the extraction of a single character from a string can be done by ".at" or this can be also done by simple giving [whichevent index value you want]]
+// //[the extraction of a single character from a string can be done by ".at" or this can be also done by simple giving [whichevent index value you want]]
 
-//SLICING ELEMENTS 
+// //SLICING ELEMENTS 
 // let string = 'anurag vishwakarma from SAL college of engineering'
 // let divide = string.slice(6,18)
 // document.getElementById('slicingString').innerHTML = divide;
 
-//FINDING SUBSTRING
+// //FINDING SUBSTRING
 // let string = 'anurag vishwakarma from SAL college of engineering'
 // let extract = string.substring(6,27);
 // document.getElementById('findingSubstring').innerHTML = extract;
@@ -86,13 +86,13 @@
 // text = text.replaceAll('cars','bikes');
 // document.getElementById('rePlacing').innerHTML = text;
 
-// //SPLIT METHOD 
+// // //SPLIT METHOD 
 // let declaringtext = "anuragvishwakarma";
 // let seperate = declaringtext.split('v');
 // document.getElementById("splitting").innerHTML = seperate[1]; 
 // //[when using the split method it basically divides the text into an array, so byy index value we can print.]
 
-//FINDING THE INDEX VALUE OF THE WORD
+// //FINDING THE INDEX VALUE OF THE WORD
 // let text = "hello how are you"
 // let findingIndex = text.indexOf('are');
 // document.getElementById('extracting').innerHTML = text;
