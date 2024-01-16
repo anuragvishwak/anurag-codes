@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expanding Cards</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    .card {
+      width: 100px;
+      height: 150px;
+      margin: 0 10px;
+      background-color: #3498db;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      cursor: pointer;
+      transition: transform 0.5s ease;
+    }
+
+    .card:hover {
+      transform: scale(2.1);
+    }
+
+    .card.active {
+      transform: scale(2.5);
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="card" onclick="toggleCard(0)">IMAGE 1</div>
+  <div class="card" onclick="toggleCard(1)">IMAGE 2</div>
+  <div class="card" onclick="toggleCard(2)">IMAGE 3</div>
+  <div class="card" onclick="toggleCard(3)">IMAGE 4</div>
+</div>
+
+<script src="index.js">
+
+</script>
+
+</body>
+</html>

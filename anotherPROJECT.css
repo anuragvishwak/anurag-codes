@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(201, 223, 179);
+}
+
+.droppingMaterial{
+    margin: 5%;
+    padding: 2%;
+}
+.droppingBucket{
+    background-color:rgb(223, 214, 232);
+    height: 260px;
+    width: 250px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left:1%;
+    display: inline-block;
+    
+}
+
+/* .div{
+    background-color:rgb(223, 214, 232);
+    height: 260px;
+    width: 250px;
+    text-align: center;
+    margin-top: 5%;
+} */
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.centering{
+    text-align: center;
+}

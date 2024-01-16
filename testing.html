@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .drag-container {
+      display: flex;
+      list-style: none;
+    }
+
+    .draggable {
+      padding: 10px;
+      margin: 5px;
+      border: 1px solid #ddd;
+      cursor: grab;
+    }
+
+    .draggable:hover {
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Drag and Drop Example</h2>
+
+<ul id="drag-container" class="drag-container">
+  <li class="draggable" draggable="true" data-id="item1">Item 1</li>
+  <li class="draggable" draggable="true" data-id="item2">Item 2</li>
+  <li class="draggable" draggable="true" data-id="item3">Item 3</li>
+</ul>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const dragContainer = document.getElementById('drag-container');
+
+    // Event listener for drag start
+    dragContainer.addEventListener('dragstart', (event) => {
+      event.dataTransfer.setData('text/plain', event.target.dataset.id);
+    });
+
+    // Event listener for drag over to allow the drop
+    dragContainer.addEventListener('dragover', (event) => {
+      event.preventDefault();
+    });
+
+    // Event listener for drop
+    dragContainer.addEventListener('drop', (event) => {
+      event.preventDefault();
+
+      // Get the dragged item's data-id
+      const draggedItemId = event.dataTransfer.getData('text/plain');
+
+      // Find the dragged item and remove it from the list
+      const draggedItem = document.querySelector(`[data-id="${draggedItemId}"]`);
+      draggedItem.parentNode.removeChild(draggedItem);
+    });
+  });
+</script>
+
+</body>
+</html>
