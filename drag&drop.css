@@ -1,0 +1,19 @@
+body{
+    background-color: slateblue;
+    display: flex;
+}
+
+.card{
+    margin: 5%;
+    padding: 2%;
+    
+    
+}
+
+.dropzone{
+    background-color: rgb(156, 156, 156);
+    height: 100px;
+    width: 200px;
+    text-align: center;
+}
+
